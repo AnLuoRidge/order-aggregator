@@ -1,0 +1,19 @@
+{
+  "name": "order-aggregator",
+  "version": "0.0.1",
+  "description": "An order aggregator",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "./src/orderAggregator.ts",
+  "engines": {
+    "node": ">=22.18.0 <23 || >=23.6.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  }
+}

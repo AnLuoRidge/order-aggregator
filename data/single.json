@@ -1,0 +1,25 @@
+{
+  "orders": [
+    {
+      "eventTime": "20251112-01:24:23:101",
+      "clientOrderId": "aaaaaa",
+      "ticker": "BHP AU Equity",
+      "quantity": 100,
+      "filledQuantity": 50
+    },
+    {
+      "eventTime": "20251112-01:25:26:448",
+      "clientOrderId": "aaaaaa",
+      "ticker": "BHP AU Equity",
+      "quantity": 100,
+      "filledQuantity": 100
+    },
+    {
+      "eventTime": "20251112-01:35:44:363",
+      "clientOrderId": "bbbbbb",
+      "ticker": "BHP AU Equity",
+      "quantity": 200,
+      "filledQuantity": 10
+    }
+  ]
+}
