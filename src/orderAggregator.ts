@@ -1,7 +1,7 @@
 import type {
     OrderAggregatorExportType,
     OrderAggregatorSourceType,
-} from "./types.ts";
+} from "./orderProcessing/types.ts";
 
 import { aggregateOrdersFromJsonFile } from "./orderProcessing/aggregateOrders/aggregateOrdersFromJsonFile/aggregateOrdersFromJsonFile.ts";
 

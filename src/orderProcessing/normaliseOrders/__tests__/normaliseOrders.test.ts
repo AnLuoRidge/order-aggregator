@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import type { Order, OrderById } from "../../../types.ts";
+import type { Order, OrderById } from "../../types.ts";
 
 import { normaliseOrders } from "../normaliseOrders.ts";
 

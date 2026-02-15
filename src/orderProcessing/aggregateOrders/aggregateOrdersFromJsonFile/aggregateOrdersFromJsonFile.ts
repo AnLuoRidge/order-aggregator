@@ -4,7 +4,7 @@ import type {
     OrderById,
     TotalFilledQtyByTicker,
     LargestFilledQtyByTicker,
-} from "../../../types.ts";
+} from "../../types.ts";
 
 import { exportMapToCsv } from "../../../utils/exportCsv/exportMapToCsv.ts";
 import { aggregateFilledQuantityByTicker } from "../../aggregateFilledQuantityByTicker/aggregateFilledQuantityByTicker.ts";

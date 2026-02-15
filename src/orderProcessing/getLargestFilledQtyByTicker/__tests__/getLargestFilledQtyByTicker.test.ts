@@ -6,7 +6,7 @@ import singerTickerExpectedResult from "./expectedResults/singleTicker.json" wit
 import multipleTickerOrders from "./testOrders/multipleTicker.json" with { type: "json" };
 import multipleTickerExpectedResult from "./expectedResults/multipleTicker.json" with { type: "json" };
 import { getLargestFilledQtyByTicker } from "../getLargestFilledQtyByTicker.ts";
-import type { LargestFilledQtyByTicker, Order, OrderById } from "../../../types.ts";
+import type { LargestFilledQtyByTicker, Order, OrderById } from "../../types.ts";
 import { normaliseOrders } from "../../normaliseOrders/normaliseOrders.ts";
 
 test("getLargestFilledQtyByTicker()", async (t) => {

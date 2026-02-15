@@ -1,4 +1,4 @@
-import type { Order, OrderById } from "../../types.ts";
+import type { Order, OrderById } from "../types.ts";
 
 function normaliseOrders(orders: Order[]): OrderById {
     const normalisedOrdersById: OrderById = new Map();

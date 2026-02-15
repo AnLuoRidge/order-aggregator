@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import type { Order, OrderById, TotalFilledQtyByTicker } from "../../../types.ts";
+import type { Order, OrderById, TotalFilledQtyByTicker } from "../../types.ts";
 
 import singleTickerOrders from "./testOrders/singleTicker.json" with { type: "json" };
 import singerTickerExpectedResult from "./expectedResults/singleTicker.json" with { type: "json" };

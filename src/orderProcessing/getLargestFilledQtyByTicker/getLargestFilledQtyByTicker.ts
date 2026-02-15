@@ -1,4 +1,4 @@
-import type { LargestFilledQtyByTicker, OrderById } from "../../types.ts";
+import type { LargestFilledQtyByTicker, OrderById } from "../types.ts";
 
 function getLargestFilledQtyByTicker(
     orderById: OrderById,

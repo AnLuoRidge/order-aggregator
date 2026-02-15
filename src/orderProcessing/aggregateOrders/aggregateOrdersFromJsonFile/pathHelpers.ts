@@ -1,7 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-import type { Order, OrdersJson } from "../../../types.ts";
+import type { Order, OrdersJson } from "../../types.ts";
 import type { CsvExportFilePaths } from "./types.ts";
 
 

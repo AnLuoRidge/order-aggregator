@@ -1,4 +1,4 @@
-import type { OrderById, TotalFilledQtyByTicker } from "../../types.ts";
+import type { OrderById, TotalFilledQtyByTicker } from "../types.ts";
 
 function aggregateFilledQuantityByTicker(
     orderById: OrderById,
